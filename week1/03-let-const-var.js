@@ -100,4 +100,4 @@ let language;
 
 // 3: Try to change one of the changed variables now, and observe what happens.
 
-country = "Yemen";
+// country = "Yemen";
