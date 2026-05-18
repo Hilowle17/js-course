@@ -38,8 +38,8 @@ fullName = "Omar Nor Ali";
 
 //and this is also illegal coz reassignin in constant value is totally illegal.
 
-const fullName;
-fullname = "Mohamed Hilowle Ahmed";
+// const fistName;
+// fistName = "Mohamed Hilowle Ahmed";
 
 //but this way is not legal you must assign a value to the constant variable at the state of declarin no declaring and assign value later 
 
@@ -63,3 +63,41 @@ currentLocation = "Somalia";
 // and i can assign a value to the empty variable
 
 // the differ b/w assign and reassign value to a variable is assigning is used to and empty variable either at the declaring state or after declaring and reassigning is used for a variable that already has a value so we reassign/change the previous value to a new one and in js this can apply on only let and var variables not const
+
+
+// Assignment
+
+// Steps to follow:
+
+// 1: Set the value of language to the language spoken where you live (some countries have multiple languages, but just choose one).
+
+// 2: Think about which variables should be const variables (which values will never change, and which might change?). Then, change these variables to const.
+
+// 3: Try to change one of the changed variables now, and observe what happens.
+
+
+// Solution 
+
+let country = "Somalia";
+let continent = "Africa";
+let population = 30;
+let isIsland = true;
+let language;
+
+// Steps
+
+// 1: Set the value of language to the language spoken where you live (some countries have multiple languages, but just choose one).
+
+language = "Arabic";
+
+// 2: Think about which variables should be const variables (which values will never change, and which might change?). Then, change these variables to const.
+
+const country = "Somalia";
+const continent = "Africa";
+let population = 30;
+const isIsland = true;
+let language;
+
+// 3: Try to change one of the changed variables now, and observe what happens.
+
+country = "Yemen";
